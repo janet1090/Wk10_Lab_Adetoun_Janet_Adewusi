@@ -1,0 +1,67 @@
+.root {
+    -fx-font-family: "Arial";
+    -fx-font-size: 13px;
+    -fx-background-color: #eeeeee;
+}
+
+.grid-pane {
+    -fx-background-color: white;
+    -fx-padding: 24px;
+    -fx-hgap: 12px;
+    -fx-vgap: 12px;
+}
+
+.label {
+    -fx-text-fill: #222222;
+}
+
+.form-header {
+    -fx-background-color: #111111;
+    -fx-padding: 8px;
+}
+
+.company-logo {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.form-title {
+    -fx-background-color: #111111;
+    -fx-text-fill: white;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-padding: 12px;
+}
+
+.section-title {
+    -fx-background-color: #111111;
+    -fx-text-fill: white;
+    -fx-padding: 8px 10px;
+}
+
+.text-field,
+.date-picker,
+.text-area {
+    -fx-background-color: white;
+    -fx-border-color: #b8c0cc;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-padding: 7px;
+}
+
+.radio-button {
+    -fx-text-fill: #222222;
+}
+
+.submit-button {
+    -fx-background-color: #111111;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 22px;
+    -fx-background-radius: 4px;
+}
+
+.submit-button:hover {
+    -fx-background-color: #444444;
+}
